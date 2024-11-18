@@ -1,0 +1,33 @@
+.appContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f3f4f7, #e8e9eb);
+  margin: 0;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 36px;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 20px;
+}
+
+.calculator {
+  border: 1px solid #ccc;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.calculator:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
